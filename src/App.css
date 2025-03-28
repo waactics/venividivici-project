@@ -1,0 +1,116 @@
+/* basic App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.item-display {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc; /* Force visibility */
+}
+
+.loading {
+  font-size: 2rem;
+  color: red; /* Force visibility */
+}
+
+/* Force button visibility */
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+/* App.css */
+.random-display {
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.random-image {
+  max-width: 100%;
+  max-height: 70vh;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.random-info {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.random-info h2 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.random-info p {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* attribute pill */
+.attribute-pill {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.attribute-pill:hover {
+  background: #bbdefb;
+  transform: translateY(-1px);
+}
+
+.ban-icon {
+  margin-left: 0.25rem;
+  opacity: 0.6;
+}
+
+.attribute-pill:hover .ban-icon {
+  opacity: 1;
+  color: #d32f2f;
+}
+
+/* banned list */
+.banned-list {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #fff8e1;
+  border-radius: 8px;
+}
+
+.banned-item {
+  display: inline-block;
+  background: #ffebee;
+  color: #c62828;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.banned-item:hover {
+  text-decoration: line-through;
+  background: #ffcdd2;
+}
